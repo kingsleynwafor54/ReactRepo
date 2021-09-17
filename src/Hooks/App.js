@@ -7,7 +7,8 @@ import Header from "./Header"
 import Numbers from "./Numbers"
 import DoubleComp from "./DoubleComp"
 import Countries from "./Countries"
-
+import Soap from "./Soap"
+import "./App.css"
 
 const App=()=>{
     const data={
@@ -40,6 +41,7 @@ const App=()=>{
         <Numbers numbers={numbers}/>
         <DoubleComp skills={skills}/>
         <Countries countries={countries}/>
+        <Soap numbers={numbers}/>
         </div>
     )
 }

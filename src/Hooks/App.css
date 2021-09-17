@@ -1,0 +1,7 @@
+button{
+    display: flexbox;
+    flex:2;
+}
+*{
+   background-color: beige; 
+}

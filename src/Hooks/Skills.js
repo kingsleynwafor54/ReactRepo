@@ -5,7 +5,7 @@ function Skills( props) {
     return (
         <div>
           <ul>
-            {skillList}  
+           <button> {skillList}  </button>
               
               </ul>  
         </div>
